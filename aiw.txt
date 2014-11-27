@@ -1,0 +1,44 @@
+create_table :clubs do |t|
+      t.int :Club_ID
+      t.string :Club_Name
+      t.int :Built
+      t.string :NickName
+      t.int :Stadium_ID
+      t.string :Background_Summary
+
+      t.timestamps
+    end
+	
+	
+	/////////////////
+	 def change
+    create_table :players do |t|
+      t.int :Player_ID
+      t.string :Player_Name
+      t.int :Club_ID
+      t.int :Position_ID
+      t.datetime :DOB
+      t.string :Profile_Picture
+      t.string :Background_Summary
+
+      t.timestamps
+    end
+  end
+  /////////////
+    create_table :stadia do |t|
+      t.int :Stadium_ID
+      t.string :Stadium_Name
+      t.string :Address
+      t.datetime :Built
+      t.int :Capacity
+      t.string :Pitch_Area
+      t.double :Height
+      t.string :Phone
+
+      t.timestamps
+	  ///////////
+	  create_table :positions do |t|
+      t.int :Position_ID
+      t.string :Position_Name
+
+      t.timestamps
