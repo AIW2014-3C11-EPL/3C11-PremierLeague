@@ -33,3 +33,7 @@ built :int
 capacity :int
 area :string
 height :string
+
+
+
+Tung ngu si
