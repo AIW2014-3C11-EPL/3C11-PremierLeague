@@ -1,2 +1,583 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+
+<section id="ccr-main-section">
+<div class="container">
+
+
+<section id="ccr-left-section" class="col-md-8">
+
+
+
+<div class="ccr-last-update">
+  <div class="update-ribon">Exclusive</div> <!-- /.update-ribon -->
+  <span class="update-ribon-right"></span> <!-- /.update-ribon-left -->
+
+
+  <div class="update-right-border"></div> <!-- /.update-right-border -->
+</div> <!-- / .ccr-last-update -->
+
+
+<section id="ccr-slide-main" class="carousel slide" data-ride="carousel">
+
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="active item">
+      <div class="container slide-element">
+        <img src="<%= image_path('slide/main-slide-1.jpg') %>" alt="Main Slide Image 1">
+        <p><a href="#">Who will claim the title?</a></p>
+      </div> <!-- /.slide-element -->
+    </div> <!--/.active /.item -->
+
+    <div class="item">
+      <div class="container slide-element">
+        <img src="<%= image_path('slide/main-slide-2.jpg') %>" alt="Main Slide Image 1">
+        <p><a href="#">Best summer transfer?</a></p>
+      </div> <!-- /.slide-element -->
+    </div> <!--  /.item -->
+
+    <div class="item">
+      <div class="container slide-element">
+        <img src="<%= image_path('slide/main-slide-3.jpg') %>" alt="Main Slide Image 1">
+        <p><a href="#">And the worst?</a></p>
+      </div> <!-- /.slide-element -->
+    </div> <!-- .item -->
+
+    <div class="item">
+      <div class="container slide-element">
+        <img src="<%= image_path('slide/main-slide-4.jpg') %>" alt="Main Slide Image 1">
+        <p><a href="#">The camera dude</a></p>
+      </div> <!-- /.slide-element -->
+    </div> <!-- /.item -->
+
+
+  </div> <!-- /.carousel-inner -->
+
+  <!-- slider nav -->
+  <a class="carousel-control left" href="#ccr-slide-main" data-slide="prev"><i class="fa fa-arrow-left"></i></a>
+  <a class="carousel-control right" href="#ccr-slide-main" data-slide="next"><i class="fa fa-arrow-right"></i></a>
+
+  <ol class="carousel-indicators">
+    <li data-target="#ccr-slide-main" data-slide-to="0" class="active"></li>
+    <li data-target="#ccr-slide-main" data-slide-to="1"></li>
+    <li data-target="#ccr-slide-main" data-slide-to="2"></li>
+    <li data-target="#ccr-slide-main" data-slide-to="3"></li>
+  </ol> <!-- /.carousel-indicators -->
+
+
+</section><!-- /#ccr-slide-main -->
+
+
+
+
+<section id="ccr-latest-post-gallery">
+  <div class="ccr-gallery-ttile">
+    <span></span>
+    <p>Others</p>
+  </div><!-- .ccr-gallery-ttile -->
+
+
+  <ul class="ccr-latest-post">
+    <li>
+      <div class="ccr-thumbnail">
+        <img src="<%= image_path('thumbnail1.jpg') %>" alt="Thumbnail 1">
+        <p><a href="#postlink">Read More</a></p>
+      </div>
+      <h4><a href="#postlink">Aguero on course to beat season's goal record</a></h4>
+    </li>
+    <li>
+      <div class="ccr-thumbnail">
+        <img src="<%= image_path('thumbnail2.jpg') %>" alt="Thumbnail 1">
+        <p><a href="new1.html">Read More</a></p>
+      </div>
+      <h4><a href="new1.html">Anichebe: Berahino will fly high if he stays grounded</a></h4>
+    </li>
+    <li>
+      <div class="ccr-thumbnail">
+        <img src="<%= image_path('thumbnail3.jpg') %>" alt="Thumbnail 1">
+        <p><a href="new2.html">Read More</a></p>
+      </div>
+      <h4><a href="new2.html">Mata aiming to revive fond memories of playing Arsenal</a></h4>
+    </li>
+    <li>
+      <div class="ccr-thumbnail">
+        <img src="<%= image_path('thumbnail4.jpg') %>" alt="Thumbnail 1">
+        <p><a href="new3.html">Read More</a></p>
+      </div>
+      <h4><a href="new3.html">FPL Scout Extra: Hotshot Sturridge back on the radar</a></h4>
+    </li>
+    <li>
+      <div class="ccr-thumbnail">
+        <img src="<%= image_path('thumbnail5.jpg') %>" alt="Thumbnail 1">
+        <p><a href="#postlink">Read More</a></p>
+      </div>
+      <h4><a href="#postlink">Charlton's records in sight for free-scoring Rooney</a></h4>
+    </li>
+    <li>
+      <div class="ccr-thumbnail">
+        <img src="<%= image_path('thumbnail6.jpg') %>" alt="Thumbnail 1">
+        <p><a href="#postlink">Read More</a></p>
+      </div>
+      <h4><a href="#postlink">Petrov 'like a little kid' on playing return</a></h4>
+    </li>
+  </ul> <!-- /.ccr-latest-post -->
+
+</section> <!--  /#ccr-latest-post-gallery  -->
+
+<section class="bottom-border">
+</section> <!-- /#bottom-border -->
+
+
+
+
+<section id="ccr-world-news">
+  <div class="ccr-gallery-ttile">
+    <span></span>
+    <p>Featured Players</p>
+  </div> <!-- .ccr-gallery-ttile -->
+
+  <section class="featured-world-news">
+    <div class="featured-world-news-img"><img src="<%= image_path('thumbnail-big1.jpg') %>" alt="Thumb"></div>
+    <div class="featured-world-news-post">
+      <h5>7| Ángel Di María</h5>
+      <ul><h6>
+        <li>CLUB<br>
+          <b>MANCHESTER UNITED</b>
+        </li>
+        <li>POSITION<br>
+          <b>MIDFIELDER</b>
+        </li>
+        <li>BARCLAYS FAN RATING<br>
+          <b>7.87</b>
+        </li>
+      </h6>
+      </ul>
+      <div class="like-comment-readmore">
+        <i class="fa fa-thumbs-o-up"> 08</i>
+        <a href="#" class="comments"><i class="fa fa-comments-o"></i> 49</a>
+        <a class="read-more" href="#">VIEW FULL PROFILE ></a>
+      </div> <!-- /.like-comment-readmore -->
+    </div>
+  </section> <!-- /#featured-world-news -->
+
+
+  <ul>
+    <li>
+
+      <div class="ccr-thumbnail">
+        <img src="<%= image_path('thumbnail-small-1.jpg') %>" alt="thumbnail-small-1.jpg">
+        <p><a href="#postlink">FULL PROFILE ></a></p>
+      </div>
+      <h5><a href="#">17| Alexis Sánchez</a></h5>
+    </li>
+    <li>
+
+      <div class="ccr-thumbnail">
+        <img src="<%= image_path('thumbnail-small-2.jpg') %>" alt="thumbnail-small-1.jpg">
+        <p><a href="#postlink">FULL PROFILE ></a></p>
+      </div>
+      <h5><a href="#">4| Cesc Fàbregas</a></h5>
+    </li>
+    <li>
+
+      <div class="ccr-thumbnail">
+        <img src="<%= image_path('thumbnail-small-3.jpg') %>" alt="thumbnail-small-1.jpg">
+        <p><a href="#postlink">FULL PROFILE ></a></p>
+      </div>
+      <h5><a href="#">31| Raheem Sterling</a></h5>
+    </li>
+    <li>
+
+      <div class="ccr-thumbnail">
+        <img src="<%= image_path('thumbnail-small-4.jpg') %>" alt="thumbnail-small-1.jpg">
+        <p><a href="#postlink">FULL PROFILE ></a></p>
+      </div>
+      <h5><a href="#">35| Steven Jovetic</a></h5>
+    </li>
+    <li>
+
+      <div class="ccr-thumbnail">
+        <img src="<%= image_path('thumbnail-small-5.jpg') %>" alt="thumbnail-small-1.jpg">
+        <p><a href="#postlink">FULL PROFILE ></a></p>
+      </div>
+      <h5><a href="#">4| Morgan Schneiderlin</a></h5>
+    </li>
+    <li>
+
+      <div class="ccr-thumbnail">
+        <img src="<%= image_path('thumbnail-small-6.jpg') %>" alt="thumbnail-small-1.jpg">
+        <p><a href="#postlink">FULL PROFILE ></a></p>
+      </div>
+      <h5><a href="#">20| Ross Barkley</a></h5>
+    </li>
+    <li>
+
+      <div class="ccr-thumbnail">
+        <img src="<%= image_path('thumbnail-small-7.jpg') %>" alt="thumbnail-small-1.jpg">
+        <p><a href="#postlink">FULL PROFILE ></a></p>
+      </div>
+      <h5><a href="#">23| Christian Eriksen</a></h5>
+    </li>
+    <li>
+
+      <div class="ccr-thumbnail">
+        <img src="<%= image_path('thumbnail-small-8.jpg') %>" alt="thumbnail-small-1.jpg">
+        <p><a href="#postlink">FULL PROFILE ></a></p>
+      </div>
+      <h5><a href="#">23| Gylfi Sigurdsson</a></h5>
+    </li>
+  </ul>
+
+</section> <!-- / #ccr-world-news -->
+
+
+
+
+<section class="bottom-border"></section>
+
+<section id="ccr-sports-gallery">
+  <div class="ccr-gallery-ttile">
+    <span></span>
+    <p>Virtual Tour</p>
+  </div> <!-- .ccr-gallery-ttile -->
+
+  <section class="featured-sports-news">
+    <div class="featured-sports-newss-img"><img src="<%= image_path('sports-thumb-1.jpg') %>" alt="Thumb"></div>
+    <div class="featured-sports-news-post">
+      <h5>OLD TRAFFORD: THE THEATRE OF DREAM</h5>
+      <h6>STEP INSIDE THE LEGEND</h6>
+      <div class="like-comment-readmore">
+        <i class="fa fa-thumbs-o-up"> 08</i>
+        <a href="#" class="comments"><i class="fa fa-comments-o"></i> 49</a>
+        <a class="read-more" href="#">Tour the stadium</a>
+      </div> <!-- /.like-comment-readmore -->
+    </div>
+  </section> <!-- /#featured-sports-news -->
+
+  <ul>
+    <li>
+
+      <div class="ccr-thumbnail">
+        <img src="<%= image_path('sports-thumb-2.jpg') %>" alt="thumbnail-small-1.jpg">
+        <p><a href="#postlink">Tour the stadium</a></p>
+      </div>
+      <h6><a href="#">EMIRATES STADIUM</a></h6>
+    </li>
+    <li>
+
+      <div class="ccr-thumbnail">
+        <img src="<%= image_path('sports-thumb-3.jpg') %>" alt="thumbnail-small-1.jpg">
+        <p><a href="#postlink">Tour the stadium</a></p>
+      </div>
+      <h6><a href="#">ETIHAD STADIUM</a></h6>
+    </li>
+    <li>
+
+      <div class="ccr-thumbnail">
+        <img src="<%= image_path('sports-thumb-4.jpg') %>" alt="thumbnail-small-1.jpg">
+        <p><a href="#postlink">Tour the stadium</a></p>
+      </div>
+      <h6><a href="#">ANFIELD</a></h6>
+    </li>
+    <li>
+
+      <div class="ccr-thumbnail">
+        <img src="<%= image_path('sports-thumb-5.jpg') %>" alt="thumbnail-small-1.jpg">
+        <p><a href="#postlink">Tour the stadium</a></p>
+      </div>
+      <h6><a href="#">STAMFORD BRIDGE</a></h6>
+    </li>
+    <li>
+
+      <div class="ccr-thumbnail">
+        <img src="<%= image_path('sports-thumb-6.jpg') %>" alt="thumbnail-small-1.jpg">
+        <p><a href="#postlink">Tour the stadium</a></p>
+      </div>
+      <h6><a href="#">VILLA PARK</a></h6>
+    </li>
+    <li>
+
+      <div class="ccr-thumbnail">
+        <img src="<%= image_path('sports-thumb-7.jpg') %>" alt="thumbnail-small-1.jpg">
+        <p><a href="#postlink">Tour the stadium</a></p>
+      </div>
+      <h6><a href="#">GOODISON PARK</a></h6>
+    </li>
+
+  </ul>
+
+</section> <!-- /#ccr-sports-gallery -->
+
+<section class="bottom-border"></section>
+
+
+
+
+
+
+
+
+</section><!-- /.col-md-8 / #ccr-left-section -->
+
+
+
+<aside id="ccr-right-section" class="col-md-4 ccr-home">
+
+
+<section id="sidebar-popular-post">
+  <div class="ccr-gallery-ttile">
+    <span></span>
+    <p><strong>Features</strong></p>
+  </div> <!-- .ccr-gallery-ttile -->
+  <ul>
+    <li>
+      <img src="<%= image_path('sports-thumb-10.jpg') %>" alt="Avatar">
+      <a href="#">On this day in 1994: Little makes winning start at Villa</a>
+      <div class="date-like-comment">
+        <span class="date"><time datetime="2014-02-17">2014-02-17</time></span>
+        <a class="like" href="#"><i class="fa fa-thumbs-o-up"></i> 08</a>
+        <a class="comments" href="#"><i class="fa fa-comments-o"></i> 49</a>
+      </div>
+    </li>
+    <li>
+      <img src="<%= image_path('thumbnail-small-7-7.jpg') %>" alt="Avatar">
+      <a href="#">On this day in 2001: Leaders Leeds beaten by Sunderland</a>
+      <div class="date-like-comment">
+        <span class="date"><time datetime="2014-02-17">2014-02-17</time></span>
+        <a class="like" href="#"><i class="fa fa-thumbs-o-up"></i> 08</a>
+        <a class="comments" href="#"><i class="fa fa-comments-o"></i> 49</a>
+      </div>
+    </li>
+    <li>
+      <img src="<%= image_path('sports-thumb-5-5.jpg') %>" alt="Avatar">
+      <a href="#">Premier League International Cup</a>
+      <div class="date-like-comment">
+        <span class="date"><time datetime="2014-02-17">2014-02-17</time></span>
+        <a class="like" href="#"><i class="fa fa-thumbs-o-up"></i> 08</a>
+        <a class="comments" href="#"><i class="fa fa-comments-o"></i> 49</a>
+      </div>
+    </li>
+    <li>
+      <img src="<%= image_path('thumbnail-small-2-2.jpg') %>" alt="Avatar">
+      <a href="#">Aguero and Di Maria lead all-star South American XI</a>
+      <div class="date-like-comment">
+        <span class="date"><time datetime="2014-02-17">2014-02-17</time></span>
+        <a class="like" href="#"><i class="fa fa-thumbs-o-up"></i> 08</a>
+        <a class="comments" href="#"><i class="fa fa-comments-o"></i> 49</a>
+      </div>
+    </li>
+    <li>
+      <img src="<%= image_path('thumbnail-small-5-5.jpg') %>" alt="Avatar">
+      <a href="#">On this day in 2012: Pilkington stuns Man Utd at Carrow Road</a>
+      <div class="date-like-comment">
+        <span class="date"><time datetime="2014-02-17">2014-02-17</time></span>
+        <a class="like" href="#"><i class="fa fa-thumbs-o-up"></i> 08</a>
+        <a class="comments" href="#"><i class="fa fa-comments-o"></i> 49</a>
+      </div>
+    </li>
+  </ul>
+
+</section> <!-- /#sidebar-popular-post -->
+
+
+<section id="ccr-calender">
+
+  <table id="calendar">
+    <caption >LIVE!</caption>
+    <thead data-iceapc="1">
+    <tr>
+      <th width="15%" title="Monday" scope="col">Pos</th>
+      <th colspan="4" scope="col" title="Tuesday">Club</th>
+      <th width="15%" title="Saturday" scope="col">Pld</th>
+      <th width="15%" title="Sunday" scope="col">Pts</th>
+    </tr>
+    </thead>
+
+    <tfoot data-iceapc="4">
+    <tr data-iceapc="3">
+      <td colspan="4" id="prev"><a href="leaguetable.html" title="Previous">&laquo; FULL LEAGUE TABLE</a></td>
+      <td colspan="3" id="next" class="pad"><a href="form.html" title="Next">FORM GUIDE &raquo;</a></td>
+    </tr>
+    </tfoot>
+
+    <tbody>
+    <tr>
+      <td>1 &#9679;</td><td colspan="4"><div align="center"><a href="single.html">Chelsea</a></div></td>
+      <td>11</td>
+      <td >29</td>
+    </tr>
+    <tr>
+      <td>2 &#9679;</td><td colspan="4"><div align="center"><a href="#">Southampton</a></div></td>
+      <td>11</td>
+      <td >25</td>
+    </tr>
+    <tr>
+      <td>3 &#9679;</td><td colspan="4"><div align="center"><a href="#">Man City</a></div></td>
+      <td>11</td>
+      <td >21</td>
+    </tr>
+    <tr>
+      <td>4 &uarr;</td><td colspan="4"><div align="center"><a href="#">West Ham</a></div></td>
+      <td>11</td>
+      <td >18</td>
+    </tr>
+    <tr>
+      <td>5 &uarr;</td><td colspan="4"><div align="center"><a href="#">Swansea</a></div></td>
+      <td>11</td>
+      <td >18</td>
+    </tr>
+    <tr>
+      <td>6 &darr;</td><td colspan="4"><div align="center"><a href="#">Arsenal</a></div></td>
+      <td>11</td>
+      <td >17</td>
+    </tr>
+    <tr>
+      <td>7 &uarr;</td><td colspan="4"><div align="center"><a href="#">Man Utd</a></div></td>
+      <td>11</td>
+      <td >16</td>
+    </tr>
+    <tr>
+      <td>8 &uarr;</td><td colspan="4"><div align="center"><a href="#">Newcastle</a></div></td>
+      <td>11</td>
+      <td >16</td>
+    </tr>
+    <tr>
+      <td>9 &uarr;</td><td colspan="4"><div align="center"><a href="#">Stoke</a></div></td>
+      <td>11</td>
+      <td >15</td>
+    </tr>
+    <tr>
+      <td>10 &darr;</td><td colspan="4"><div align="center"><a href="#">Everton</a></div></td>
+      <td>11</td>
+      <td >14</td>
+    </tr>
+    <tr>
+      <td>11 &darr;</td><td colspan="4"><div align="center"><a href="#">Liverpool</a></div></td>
+      <td>11</td>
+      <td >14</td>
+    </tr>
+    <tr>
+      <td>12 &darr;</td><td colspan="4"><div align="center"><a href="#">Spurs</a></div></td>
+      <td>11</td>
+      <td >14</td>
+    </tr>
+    <tr>
+      <td>13 &darr;</td><td colspan="4"><div align="center"><a href="#">West Brom</a></div></td>
+      <td>11</td>
+      <td >13</td>
+    </tr>
+    <tr>
+      <td>14 &uarr;</td><td colspan="4"><div align="center"><a href="#">Sunderland</a></div></td>
+      <td>11</td>
+      <td >12</td>
+    </tr>
+    <tr>
+      <td>15 &darr;</td><td colspan="4"><div align="center"><a href="#">Hull</a></div></td>
+      <td>11</td>
+      <td >11</td>
+    </tr>
+    <tr>
+      <td>16 &#9679;</td><td colspan="4"><div align="center"><a href="#">Aston Villa</a></div></td>
+      <td>11</td>
+      <td >11</td>
+    </tr>
+    <tr>
+      <td>17 &#9679;</td><td colspan="4"><div align="center"><a href="#">Crystal Palace</a></div></td>
+      <td>11</td>
+      <td >9</td>
+    </tr>
+    <tr>
+      <td>18 &#9679;</td><td colspan="4"><div align="center"><a href="#">Leicester</a></div></td>
+      <td>11</td>
+      <td >9</td>
+    </tr>
+    <tr>
+      <td>19 &#9679;</td><td colspan="4"><div align="center"><a href="#">QPR</a></div></td>
+      <td>11</td>
+      <td >8</td>
+    </tr>
+    <tr>
+      <td>20 &#9679;</td><td colspan="4"><div align="center"><a href="#">Burnley</a></div></td>
+      <td>11</td>
+      <td >7</td>
+    </tr>
+    </tbody>
+  </table>
+
+</section>
+
+
+<section id="sidebar-older-post">
+  <div class="ccr-gallery-ttile">
+    <span></span>
+    <p><strong>News from our Clubs</strong></p>
+  </div> <!-- .ccr-gallery-ttile -->
+  <ul>
+    <li>
+      <img src="<%= image_path('sports-thumb-100.jpg') %>" alt="Avatar">
+      <a href="#">EDUARDO VARGAS & MAURICIO ISLA FEATURE IN CHILE'S URUGUAY DEFEAT</a>
+      <div class="date-like-comment">
+        <span class="date"><time datetime="2014-02-17">2014-02-17</time></span>
+        <a class="like" href="#"><i class="fa fa-thumbs-o-up"></i> 08</a>
+        <a class="comments" href="#"><i class="fa fa-comments-o"></i> 49</a>
+      </div>
+    </li>
+    <li>
+      <img src="<%= image_path('thumbnail-small-700.jpg') %>" alt="Avatar">
+      <a href="#">U21 Report: Leicester City 2 Schalke 0</a>
+      <div class="date-like-comment">
+        <span class="date"><time datetime="2014-02-17">2014-02-17</time></span>
+        <a class="like" href="#"><i class="fa fa-thumbs-o-up"></i> 08</a>
+        <a class="comments" href="#"><i class="fa fa-comments-o"></i> 49</a>
+      </div>
+    </li>
+    <li>
+      <img src="<%= image_path('sports-thumb-500.jpg') %>" alt="Avatar">
+      <a href="#">Dyche and Ings Land North West Honours</a>
+      <div class="date-like-comment">
+        <span class="date"><time datetime="2014-02-17">2014-02-17</time></span>
+        <a class="like" href="#"><i class="fa fa-thumbs-o-up"></i> 08</a>
+        <a class="comments" href="#"><i class="fa fa-comments-o"></i> 49</a>
+      </div>
+    </li>
+    <li>
+      <img src="<%= image_path('thumbnail-small-200.jpg') %>" alt="Avatar">
+      <a href="#">Lads take positives from Under-21 duty</a>
+      <div class="date-like-comment">
+        <span class="date"><time datetime="2014-02-17">2014-02-17</time></span>
+        <a class="like" href="#"><i class="fa fa-thumbs-o-up"></i> 08</a>
+        <a class="comments" href="#"><i class="fa fa-comments-o"></i> 49</a>
+      </div>
+    </li>
+    <li>
+      <img src="<%= image_path('thumbnail-small-500.jpg') %>" alt="Avatar">
+      <a href="#">Development Squad Host Scunthorpe Tonight</a>
+      <div class="date-like-comment">
+        <span class="date"><time datetime="2014-02-17">2014-02-17</time></span>
+        <a class="like" href="#"><i class="fa fa-thumbs-o-up"></i> 08</a>
+        <a class="comments" href="#"><i class="fa fa-comments-o"></i> 49</a>
+      </div>
+    </li>
+  </ul>
+
+</section> <!-- /#sidebar-older-post -->
+
+<section id="sidebar-entertainment-post">
+  <div class="ccr-gallery-ttile">
+    <span></span>
+    <p><strong>Player of the Week</strong></p>
+  </div> <!-- .ccr-gallery-ttile -->
+
+  <div class="sidebar-entertainment">
+    <img src="<%= image_path('entertainment.jpg') %>" alt="entertainment">
+    <a href="#">Sergio Aguero interview: The Manchester City star on stuttering form and his love for.. NFL?!</a>
+  </div>
+  <div class="date-like-comment">
+    <a href="#" class="like"><i class="fa fa-thumbs-o-up"></i> 08</a>
+    <a href="#" class="comments"><i class="fa fa-comments-o"></i> 49</a>
+  </div>
+</section>  <!-- /#sidebar-entertainment-post -->
+
+</aside><!-- / .col-md-4  / #ccr-right-section -->
+
+
+</div><!-- /.container -->
+</section><!-- / #ccr-main-section -->
