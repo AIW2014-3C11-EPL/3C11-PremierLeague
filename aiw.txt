@@ -36,6 +36,6 @@ height :string
 
 
 
-Tung ngu si
-DM Thang
-Xin chao 2 ban :3
+Hoa: Arsenal -> Everton
+Tram: Hull -> newcastle
+Vu: con lai
